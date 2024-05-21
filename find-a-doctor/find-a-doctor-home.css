@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-family:'Trebuchet MS'
+    
+}
+
+body {
+    font-family:'Trebuchet MS';
+    overflow-x: hidden;
+}
+
+
+
+.landingpage-doc {
+    position: relative;
+    height: 90vh;
+    background-image: url(/images/wp6938410.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #1ebba6;
+  background: -webkit-radial-gradient(circle, #1ebba6 0%, #4776e6 100%);
+  background: radial-gradient(circle, #1ebba6 0%, #4776e6 100%); */
+  border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+
+   .find {
+    color: #f9ffff;
+    padding-top: 8em;
+    padding-left: 2.5em;
+
+    h1 {
+      
+        font-size: 5em;
+        font-weight: bold;
+        text-shadow: -0.01em -0.05em 0.09em #000;
+	    
+        .doc {
+            text-decoration-line: underline !important;
+            text-decoration-color: blue !important;
+            
+        }
+    }
+    p {
+        font-size: 1.5em;
+        margin-top: 2em;
+        text-shadow: -0.01em -0.05em 0.09em #000;
+    }
+    
+   }
+
+   .image {
+        margin-top: 2em;
+    img {
+        border-radius: 50%;
+        width: 38vw;
+        height: 80vh;
+    }
+   }
+}
+
+
+
+
+
+/* Search input starts here */
+.search-box {
+    position: relative;
+    bottom: 6em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #fffdfc;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
+    .search-input {
+      border: 1px solid #1ebba6;
+      padding: 0.7em 1em;
+      border-radius: 3em;
+      margin-bottom: 1em;
+    }
+
+    .search-flex {
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    label {
+      font-size: 0.9em;
+      font-weight: bold;
+      color: #0d4e46;
+    }
+
+    input {
+      outline: none;
+      border: none;
+
+    
+    }
+
+    button {
+      display: inline-block;
+      color: white;
+      background: #0d4e46;
+      border-radius: 50px;
+      padding: 0.5em 1.5em;
+      transition: background-color 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      background-color: #07e9c7;
+      box-shadow: 0 0 0 0.15rem #07e9c7;
+    }
+
+    .search-btn-icon {
+      display: none;
+      color: white;
+      background: #0d4e46;
+      border-radius: 50%;
+      padding: 0.5em;
+      transition: background-color 0.2s;
+    }
+
+    .search-btn-icon:hover {
+      background-color: #07e9c7;
+    }
+
+    .divider {
+      font-size: 1.5em;
+      color: #042420;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+
+    ul li {
+      display: inline;
+    }
+
+    ul li:not(:last-child) {
+      margin-right: 1em;
+    }
+
+    a {
+      color: #0d4e46;
+      text-decoration: none;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 700px) {
+      .search-box {
+        padding: 0.5em;
+      }
+
+      .search-input {
+        padding: 0.5em 0.8em;
+      }
+
+      button {
+        display: none;
+      }
+
+      .search-btn-icon {
+        display: inline-block;
+      }
+    }
+
+}
+
+
+
+
+
+ /* GOT YOU COVERED STARTS HERE */
+
+ .got-you-covered {
+
+    margin-top: 1em;
+
+}
+
+
+/* CARDS DESIGN  */
+
+.card-box {
+  margin-top: 10em;  
+    .card-img-circle {
+        border-radius: 50%;
+      }
+    .rating {
+        color: #ffc107; /* yellow color for star rating */
+      }
+    .icon {
+        font-size: 20px;
+        margin-right: 5px;
+      }
+    .card {
+        box-shadow: 0 3.2px 7.2px 0 rgb(0 0 0 / 13%), 0 0.6px 1.8px 0 rgb(0 0 0 / 11%);
+        transition: ease 300ms;
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+    
+}
+
+
+
+/* FIND BY STATE DESIGN */
+
+.find-state {
+    margin: 15em 0em;
+    padding: 0em 5em;
+
+    a {
+        color: #0a796c;
+        font-weight: 600;
+
+        &:hover {
+            color: #053F38 !important;
+            text-decoration: underline !important;
+        }
+    }
+
+    li {
+        padding-bottom: 0.8em;
+    }
+}
+
+
+

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none !important;
+    font-family:'Trebuchet MS'
+    
+}
+
+body {
+    font-family:'Trebuchet MS';
+    overflow-x: hidden;
+}
+
+
+
+.blogHealth {
+    
+    height: 80vh;
+    background-image: url(/images/medical-background-check-employment-background-27.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+    
+
+
+
+
+
+
+   .find {
+    color: #f9ffff;
+    padding-top: 6em;
+    padding-left: 8em;
+
+    h1 {
+        font-size: 5em;
+        font-weight: bold;
+        text-shadow: -0.01em -0.05em 0.09em #000;
+	    
+        .doc {
+            text-decoration-line: underline !important;
+            text-decoration-color: blue !important;
+            font-size: .7em;
+        }
+    }
+    p {
+        font-size: 1.5em;
+        margin-top: 2em;
+        text-shadow: -0.01em -0.05em 0.09em #000;
+
+        span a {
+            color: rgb(2, 252, 252);
+        }
+    }
+    
+   }
+
+  
+   
+}
+
+
+
+/* BLOG-CARDS */
+
+.health-blog {
+    margin-top: 10em;
+    margin-left: 6em;
+    margin-right: 4.5em;
+
+    hr {
+        height: .1px; 
+        background-color: #333; 
+        border: none;
+        margin: 25px 0; 
+      }
+
+      a {
+        color: #000;
+        list-style-type: none;
+        text-decoration: none;
+        
+      }
+
+      .card {
+
+        &:hover {
+            color: #333;
+        }
+    }
+        img {
+            overflow: none;
+
+            &:hover {
+                transform: scale(1.05); /* Scale the image up by 10% on hover */
+                transition: transform 0.5s ease-in-out;
+                color: #333;
+            }
+        }
+        
+        
+      
+
+     
+
+}
