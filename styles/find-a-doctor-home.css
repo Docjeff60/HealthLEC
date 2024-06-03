@@ -18,7 +18,7 @@ body {
 .landingpage-doc {
     position: relative;
     height: 90vh;
-    background-image: url(/images/wp6938410.webp);
+    background-image: url(/images/doctor-team.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ body {
    .find {
     color: #f9ffff;
     padding-top: 8em;
-    padding-left: 2.5em;
+    padding-left: 5em;
 
     h1 {
       
