@@ -6,13 +6,13 @@
     <title>HealthLEC</title>
 
     <link rel="stylesheet" href="./styles/style.css">
-   <link rel="stylesheet" href="./styles/for-professionals.css">
+   <link rel="stylesheet" href="./styles/dashboard.css">
     <link rel="shortcut icon" href="/images/HEALTHLEC.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8545a593ba.js" crossorigin="anonymous"></script>
-    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 </head>
 <body>
@@ -76,10 +76,7 @@
           
 
       <div class="row welcome">
-        <h1 class="">Welcome to <span class="doc">HealthLEC for Professionals</span></h1>
-        <p class="">
-         We’re glad you’re back! Log into your account to view what’s new with your profile and HealthLEC for Professionals.
-        </p>
+        
       </div>
 
 
@@ -88,169 +85,158 @@
 
 
 
-  <!-- LOGIN FOR PROFESSIONALS -->
+  <!-- WELCOME DASHBOARD -->
 
-  <section class="professionals">
+  <section class="dashboards">
    <div class=" w-75 mx-auto mt-5">
       <ul class="nav nav-tabs nav-underline" id="myTab" role="tablist">
-        
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="false">Login</button>
+        <li class="nav-item me-4">
+         <h3>Welcome!</h3>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="signup" aria-selected="false">Find Your Profile</button>
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Home</button>
         </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="myhealthlecmatch-tab" data-bs-toggle="tab" data-bs-target="#myhealthlecmatch" type="button" role="tab" aria-controls="myhealthlecmatch" aria-selected="false">MyHealthLECMatch</button>
+        </li>
+        <li class="nav-item" role="presentation">
+         <button class="nav-link" id="careteam-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="careteam" aria-selected="false">Care Team</button>
+       </li>
+       <li class="nav-item" role="presentation">
+         <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="appointments" aria-selected="false">Appointments</button>
+       </li>
+       <li class="nav-item" role="presentation">
+         <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="Reviews" aria-selected="false">Reviews</button>
+       </li>
+       <li class="nav-item" role="presentation">
+         <button class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+       </li>
         
       </ul>
       
       <div class="tab-content" id="myTabContent">
         
-
-        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
-          <div class="row">
-            <div class="col-md-8 ">
-               <form class="m-2 p- w-75 ">
-                  <div class="mb-4 mt-4">
-                     <h4 class="my-2 fw-bold ">Log In</h4>
-                  </div>
-                  <div class="mb-3">
-                    <label for="loginEmail" class="form-label">Email or Username</label>
-                    <input type="email" class="form-control" id="loginEmail" placeholder="Your Email or Username">
-                  </div>
-                  <div class="mb-3">
-                    <label for="loginPassword" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="loginPassword" placeholder="Enter Password">
-                  </div>
-                  
-      
-                  <div class="d-flex justify-content-between ">
+         <!-- HOME -->
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="row ">
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
                      <div class="">
-                        <input type="checkbox" name="" id="">
-                        <label for="checkbox" class="form-label">Remember me</label>
+                        <div class=""><i class="fa-brands fa-searchengin"></i></div>
+                        <h4 class="">MyHealthMatch  ></h4>
+                        <p class="">
+                           Access HealthLEC, MyHealthLECMatch site to help you find doctors expertly qualified to address your unique health needs.
+                        </p>
                      </div>
+                  </a>
+               </div>
+
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
                      <div class="">
-                        <a href="" class="">Forget Password</a>
+                        <div class=""><i class="bi bi-person-fill-up"></i></div>
+                        <h4 class="">Care Team  ></h4>
+                        <p class="">
+                           Save your trusted providers to your personal Care Team. Easily access office location and phone numbers directly.
+                        </p>
                      </div>
+                  </a>
+               </div>  
+               
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
+                     <div class="">
+                        <div class="">
+                           <img src="/images/HEALTHLEC.png" style="width: 38%;" alt="">
+                        </div>
+                        <h4 class="">HealthLEC Rx  ></h4>
+                        <p class="">
+                           Save on your prescription refills each time you show your discount card when picking up. Powered by our partnership with Optum Perks.
+                        </p>
+                     </div>
+                  </a>
+               </div>
 
-                  </div>
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
+                     <div class="">
+                        <div class=""><i class="bi bi-chat-left-dots"></i></div>
+                        <h4 class="">Reviews  ></h4>
+                        <p class="">
+                           Help other patients find the best care by giving your provider a review. Edit your review, check approval status and delete your review.
+                        </p>
+                     </div>
+                  </a>
+               </div>
 
-                  <button type="submit" class="btn btn-success mt-5">Login</button>
-                  
-               </form>
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
+                     <div class="">
+                        <div class=""><i class="bi bi-person-workspace"></i></div>
+                        <h4 class="">Profile  ></h4>
+                        <p class="">
+                           Provide your personal details and how we can reach you. Add your insurance information to quickly reference when finding the right provider.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+
+               <div class="col-lg-6 mb-4 myhealth">
+                  <a href="" class="card">
+                     <div class="">
+                        <div class=""><i class="bi bi-calendar3"></i></div>
+                        <h4 class="">Appointments  ></h4>
+                        <p class="">
+                           Choose a time slot that works best for you and book your appointment right from the site. View and manage your appointments.
+                        </p>
+                     </div>
+                  </a>
+               </div>
+
             </div>
+        </div>
+         <!-- MYHEALTHLECMATCH -->
+        <div class="tab-pane fade show active" id="myhealthlecmatch" role="tabpanel" aria-labelledby="myhealthlecmatch-tab">
+         
+         <div class="">
+            <h3 class="">MyHealthLECMatch</h3>
+         </div>
+         
+         <div class="text-center">
+            <img src="/images/Screenshot 2024-06-10 160442.png" alt="">
 
+            <h4 class="">Access MyHealthLECmatch</h4>
 
-            <div class="col-md-4">
-               <div class="text-center">
-                  <img src="/images/HEALTHLEC.png" alt="" class="w-25 my-5">
+            <img src="/images/HEALTHLEC.png" class="w-25 my-4 mt-5" alt="">
 
-                  <h5 class="mb-4">
-                     Don't have an account with us yet? Join for free.
-                  </h5>
+            <p class="">
+               Searching for the best available care should start with an understanding of a doctor’s experience with your condition or procedure and, when available, the quality of his or her affiliated hospitals. MyHealthMatch offers a clear, unbiased view of these factors, backed by the power of Healthgrades data.
+            </p>
 
-                  <button class="submit rounded-5 border-0 text-bg-success  py-2 px-3 mb-5">Claim your profile</button>
-               
-                  <div class="mt-5">
-                     <img src="/images/illustratelogo.png" alt="">
+            <button class="submit text-bg-danger px-4 py-2 mt-4 mb-5 rounded-5 border-0">Get Started</button>
+         </div>
+       </div>
+       <!-- CARETEAM -->
+       <div class="tab-pane fade show active" id="careteam" role="tabpanel" aria-labelledby="careteam-tab">
+         <div class="">
+            <h3 class="">Care Team</h3>
+
+            <div class="">
+               <div class="d-flex">
+                  <div class="">
+                     <img src="" alt="">
                   </div>
-               
                </div>
             </div>
-          </div>
-        </div>
-
-
-        <!-- find your profile -->
-
-        <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
-         <div class="row">
-            <div class="col-md-8 ">
-               <form class="m-2 p- w-75 ">
-                  <div class="mb-4 mt-4">
-                     <h4 class="my-2 fw-bold ">Find your profile</h4>
-                  </div>
-
-                  <p class="">
-                     Your DEA or State license number is required for verification.
-                  </p>
-
-                  <div class="mb-3">
-                    <label for="loginEmail" class="form-label">Location</label>
-                    <input type="text" class="form-control" id="location" placeholder="lagos, NGA">
-                  </div>
-                  <div class="mb-3">
-                    <label for="loginPassword" class="form-label">Medical Professional's Name</label>
-                    <input type="search" class="form-control" id="medSearch" placeholder="Medical professional's Name">
-                  </div>
-                  
-      
-                  
-
-                  <button type="submit" class="btn btn-success mt-5">Find Your Profile</button>
-                  
-               </form>
-            </div>
-
-
-            <div class="col-md-4">
-               <div class="">
-                  
-
-                  <h4 class="mb-5 fw-bold ">
-                     Join the leading destination of patients searching for healthcare professionals
-                  </h4>
-
-                 <div class="">
-                  <div class="d-flex align-content-center gap-4 mb-4 ">
-                     <div class="icon fs-6 mt-3">
-                        <i class="bi bi-person-square fs-1"></i>
-                     </div>
-                     <div class="">
-                        <p class="fw-bold">Increase Visibility</p>
-                        <p class="">Personalize your profile and make it visible to more patients</p>
-                     </div>
-                  </div>
-                  
-                  <div class="d-flex align-content-center gap-4 mb-4">
-                     <div class="icon fs-6 mt-3">
-                        <i class="bi bi-gear-wide-connected fs-1"></i>
-                     </div>
-                     <div class="">
-                        <p class="fw-bold">Boost Physician Referrals</p>
-                        <p class="">Stand out to physicians making informed referrals</p>
-                     </div>
-                  </div>
-                  <div class="d-flex align-content-center gap-4 mb-4">
-                     <div class="icon fs-6 mt-3">
-                        <i class="bi bi-people fs-1"></i>
-                     </div>
-                     <div class="">
-                        <p class="fw-bold">Connect with Patients</p>
-                        <p class="">Get twice the appointment requests with a complete profile</p>
-                     </div>
-                  </div>
-                  <div class="d-flex align-content-center gap-4 mb-4">
-                     <div class="icon fs-6 mt-3">
-                        <i class="bi bi-person-gear fs-1"></i>
-                     </div>
-                     <div class="">
-                        <p class="fw-bold">Manage Your Profile</p>
-                        <p class="">Access tools to manage and respond to reviews</p>
-                     </div>
-                  </div>
-                 </div>
-               
-                  <div class="mt-5">
-                     <img src="/images/illustratelogo.png" alt="">
-                  </div>
-               
-               </div>
-            </div>
-          </div>
-        </div>
+         </div>
+       </div>
 
         
-      </div>
+     </div>
+
+      
+        
+      
     </div>
 
 
@@ -260,9 +246,9 @@
 
  
 
-<section class="">
+<section class="mt-5">
    <div class="text-center">
-      <img src="/images/HEALTHLEC.png" class="w-25 my-4 mt-5" alt="">
+      
 
       <p class="mb-4 ">
          By updating your data with Healthgrades, your data will also be updated across all of our partner solutions.
