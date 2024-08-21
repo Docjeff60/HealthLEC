@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const numberOfItems = marqueeContent.children.length;
 
     // Decide how many times you want to duplicate these elements
-    const duplicateCount = 2; // Change this to the desired number of duplicates
+    const duplicateCount = 2; 
 
     // Loop through the number of items and duplicate them
     for(let i = 0; i < duplicateCount; i++) {
@@ -92,13 +92,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// // MARQUEE ELEMENT STARTS HERE
-// const root = document.documentElement;
-// const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
-// const marqueeContent = document.querySelector("ul.marquee-content");
-
-// root.style.setProperty("--marquee-elements", marqueeContent.children.length);
-
-// for(let i=0; i<marqueeElementsDisplayed; i++) {
-//   marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
-// };
