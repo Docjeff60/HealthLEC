@@ -60,6 +60,10 @@ body {
     }
 
     }
+
+    
+
+
 }
 
 
@@ -76,4 +80,45 @@ body {
       .nav-tabs .nav-link.active {
         border-bottom: 2px solid #007bff;
       }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .professional {
+    
+        height: 50vh;
+       
+        .welcome {
+        
+        padding-top: 1.5em;
+        
+    
+        
+            p {
+                
+                padding-left: 0em;
+                padding-right: 0em;
+                text-align: center;
+            
+            }
+    
+        }
+    
+        
+    
+    
+    }
+
+
+    .professionals {
+        margin-top: 12em;
+        
+    }
+
 }

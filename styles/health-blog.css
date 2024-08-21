@@ -103,7 +103,45 @@ body {
         
         
       
+        
 
-     
+}
 
+
+
+
+
+/* mobile responsiveness */
+@media screen and (max-width: 700px) {
+    
+    .blogHealth {
+    
+        height: 50vh;
+        background-image: url(/images/medical-background-check-employment-background-27.jpg);
+        
+        border-radius: 25% 25% 25% 33% / 0% 0% 0% 17%;
+        
+    
+    
+       .find {
+        color: #f9ffff;
+        padding-top: 2em;
+        padding-left: 2em;
+    
+            h1 {
+                font-size: 4em;
+                
+            
+            }
+        
+        }
+    
+      
+       
+    }
+
+
+    .health-blog {
+        margin-top: 5em;
+    }
 }
