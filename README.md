@@ -2,10 +2,10 @@
 my sole project
 
 
-"HealthAccess is a comprehensive healthcare accessibility app designed to connect users with essential healthcare services and resources. With HealthAccess, users can easily locate nearby clinics, hospitals, and pharmacies, find doctors by specialty and location, and schedule appointments with healthcare providers. The app also offers features for telemedicine consultations, allowing users to access medical advice and support remotely. Additionally, HealthAccess provides health education resources to empower users to make informed decisions about their health and well-being. Whether you're seeking urgent medical care or routine check-ups, 
-HealthAccess is your gateway to accessible healthcare services anytime, anywhere."
+"HealthLEC is a comprehensive healthcare accessibility app designed to connect users with essential healthcare services and resources. With HealthLEC, users can easily locate nearby clinics and hospitals, find doctors by specialty and location, and schedule appointments with healthcare providers. The app also offers features for telemedicine consultations, allowing users to access medical advice and support remotely. Additionally, HealthLEC provides health education resources to empower users to make informed decisions about their health and well-being. Whether you're seeking urgent medical care or routine check-ups, 
+HealthLEC is your gateway to accessible healthcare services anytime, anywhere."
 
-"HealthAccess is a comprehensive healthcare accessibility app designed to connect users with essential healthcare services and resources. With HealthAccess, users can easily locate nearby clinics, hospitals, and pharmacies, find doctors by specialty and location, and schedule appointments with healthcare providers. The app also offers features for telemedicine consultations, allowing users to access medical advice and support remotely. Additionally, HealthAccess provides health education resources to empower users to make informed decisions about their health and well-being. Whether you're seeking urgent medical care or routine check-ups, HealthAccess is your gateway to accessible healthcare services anytime, anywhere."
+
 
 Key Features:
 
@@ -19,9 +19,9 @@ Telemedicine Consultations: In areas where access to healthcare services is limi
 
 Health Records Management: The app allows users to securely store and access their medical records, including doctor's notes, test results, prescriptions, and vaccination history. Users can easily share their health information with healthcare providers when seeking medical care, ensuring continuity of care and informed decision-making.
 
-Health Education Resources: HealthConnect NG provides educational resources on various health topics, including preventive care, common illnesses, and lifestyle management. Users can access articles, videos, and infographics created by medical experts to empower them to make informed decisions about their health and well-being.
+Health Education Resources: HealthLEC provides educational resources on various health topics, including preventive care, common illnesses, and lifestyle management. Users can access articles, videos, and infographics created by medical experts to empower them to make informed decisions about their health and well-being.
 
-Emergency Assistance: In case of medical emergencies, HealthConnect NG offers quick access to emergency services, including ambulance dispatch and hospital admissions. Users can easily call emergency hotlines or use the app's SOS feature to notify their emergency contacts and share their location.
+Emergency Assistance: In case of medical emergencies, HealthLEC offers quick access to emergency services, including ambulance dispatch and hospital admissions. Users can easily call emergency hotlines or use the app's SOS feature to notify their emergency contacts and share their location.
 
 Community Support: The app fosters a sense of community by allowing users to connect with others who share similar health concerns or interests. Users can join support groups, participate in health challenges, and share personal experiences to inspire and motivate each other on their health journeys.
 

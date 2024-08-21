@@ -15,6 +15,45 @@ body {
 
 
 
+.navbar-nav {
+  .navBtn {
+    
+    
+    display: inline-block;
+    outline: 0;
+    appearance: none;
+    padding: 0px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(249, 251, 250);
+    border: 1px solid rgb(137, 151, 155);
+    box-shadow: rgb(6 22 33 / 30%) 0px 1px 2px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 36px;
+    transition: all 150ms ease-in-out 0s;
+    &:hover {
+        color: rgb(61, 79, 88);
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(93, 108, 116);
+        box-shadow: rgb(0 0 0 / 30%) 0px 4px 4px, rgb(231 238 236) 0px 0px 0px 3px;
+    }
+
+    
+  }
+  
+
+  .dropdown-menu {
+    background-color: #d7faf5;
+    
+    li a:hover {
+      background-color: #46c2af;
+    }
+  }
+}
+
+
 .landingpage-doc {
     position: relative;
     height: 90vh;
@@ -22,10 +61,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: #1ebba6;
-  background: -webkit-radial-gradient(circle, #1ebba6 0%, #4776e6 100%);
-  background: radial-gradient(circle, #1ebba6 0%, #4776e6 100%); */
-  border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+    border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+    
 
    .find {
     color: #f9ffff;

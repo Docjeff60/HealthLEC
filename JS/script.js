@@ -67,15 +67,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+// Wait until the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the marquee content element (the unordered list)
+    const marqueeContent = document.querySelector("ul.marquee-content");
+
+    // Find out how many elements are currently inside the marquee
+    const numberOfItems = marqueeContent.children.length;
+
+    // Decide how many times you want to duplicate these elements
+    const duplicateCount = 2; // Change this to the desired number of duplicates
+
+    // Loop through the number of items and duplicate them
+    for(let i = 0; i < duplicateCount; i++) {
+        for(let j = 0; j < numberOfItems; j++) {
+            // Clone each item and append it to the marquee content
+            const clonedNode = marqueeContent.children[j].cloneNode(true);
+            marqueeContent.appendChild(clonedNode);
+        }
+    }
+});
 
 
-// MARQUEE ELEMENT STARTS HERE
-const root = document.documentElement;
-const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
-const marqueeContent = document.querySelector("ul.marquee-content");
 
-root.style.setProperty("--marquee-elements", marqueeContent.children.length);
 
-for(let i=0; i<marqueeElementsDisplayed; i++) {
-  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
-};
+
+// // MARQUEE ELEMENT STARTS HERE
+// const root = document.documentElement;
+// const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+// const marqueeContent = document.querySelector("ul.marquee-content");
+
+// root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+// for(let i=0; i<marqueeElementsDisplayed; i++) {
+//   marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+// };

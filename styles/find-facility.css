@@ -22,10 +22,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: #1ebba6;
-  background: -webkit-radial-gradient(circle, #1ebba6 0%, #4776e6 100%);
-  background: radial-gradient(circle, #1ebba6 0%, #4776e6 100%); */
-  border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+    border-radius: 25% 25% 25% 33% / 0% 0% 0% 27%;
+    
 
    .find {
     color: #f9ffff;
