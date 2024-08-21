@@ -1,4 +1,7 @@
+
+
 # HealthLEC
+
 my sole project
 
 
@@ -31,3 +34,8 @@ General Public: Individuals seeking access to healthcare services, medical advic
 Patients with Chronic Conditions: Individuals managing chronic illnesses who require regular medical care and support.
 Healthcare Providers: Doctors, nurses, pharmacists, and other healthcare professionals looking to connect with patients and expand their practice reach.
 HealthConnect NG aims to democratize healthcare access, empower patients to take control of their health, and facilitate meaningful connections between patients and healthcare providers in Nigeria.
+
+
+
+
+
